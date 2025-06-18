@@ -1,4 +1,28 @@
-.p1{
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Boldonse&family=Cinzel:wght@400..900&family=Lemon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Russo+One&display=swap');
 
-color:#FF1493;
+:root {
+  --bg-dark: #0c0c0c;
+  --text-gold: #c6a974;
+  --highlight-red: #b02e2e;
+  --magic-purple: #a364e1;
+  --effect-white: #e8e8e8;
+  --text-gray: #cccccc;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-gray);
+  font-family: 'Cinzel', serif;
+}
+
+h1 {
+  color: var(--text-gold);
+}
+
+.highlight {
+  color: var(--highlight-red);
+}
+
+.magic {
+  color: var(--magic-purple);
 }
